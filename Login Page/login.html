@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="F:\Portfolio\Login Page\login.css">
+
+  </head>
+  <body class="login-body">
+    
+      <img class="bg-img" src="F:\Portfolio\Login Page\Images\Background.jpg" alt="Image cannot be displayed">
+
+      <div class="login-container">
+        <h1>LOGIN</h1>
+
+        <form id="login-form">
+
+          <div class="tbox">
+            <input id="uname" type="text" name="" value="" placeholder="Username">
+          </div>
+          <div class="tbox">
+            <input id="pwd" type="password" name="" value="" placeholder="Password">
+          </div>
+
+          <input class="btn" type="submit" name="" value="LOGIN" onclick="validateLogin()">
+
+        </form>
+
+      <a class="b1" href="#">Forgot Password?</a>
+      <a class="b1" href="#">Create New Account</a>
+
+      <div class="modal">
+        <div class="modal-header">
+          <img id="alert" src="Images\alert.png" alt="">
+        </div>
+        <p>Incorrect username or password</p>
+        <button class="btn" type="button" name="button" onclick="dismissModal()">Try Again</button>
+      </div>
+    </div>
+  </body>
+  <script src="F:\Portfolio\Login Page\login.js"></script>
+
+</html>
